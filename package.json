@@ -17,6 +17,9 @@
     "common": "yarn workspace @react-monorepo/common",
     "server": "yarn workspace @react-monorepo/server",
     "build": "ts-node ./scripts/build.ts",
-    "serve": "node ./packages/server/dist/index.js"
+    "serve": "node ./packages/server/dist/index.js",
+    "docker": "docker build . -t react-monorepo",
+    "docker:images": "docker image ls",
+    "docker:serve": "docker run -d -p 3000:3000 react-monorepo"
   }
 }
