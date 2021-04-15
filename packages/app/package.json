@@ -1,0 +1,16 @@
+{
+  "name": "@react-monorepo/app",
+  "version": "1.0.0",
+  "author": "offensivelybad",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@react-monorepo/common": "^1.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3"
+  }
+}

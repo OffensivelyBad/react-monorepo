@@ -1,0 +1,22 @@
+{
+  "name": "react-monorepo",
+  "version": "1.0.0",
+  "author": "offensivelybad",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "esbuild": "^0.11.11",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "scripts": {
+    "app": "yarn workspace @react-monorepo/app",
+    "common": "yarn workspace @react-monorepo/common",
+    "server": "yarn workspace @react-monorepo/server",
+    "build": "ts-node ./scripts/build.ts",
+    "serve": "node ./packages/server/dist/index.js"
+  }
+}

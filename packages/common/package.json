@@ -1,0 +1,8 @@
+{
+  "name": "@react-monorepo/common",
+  "version": "1.0.0",
+  "author": "offensivelybad",
+  "license": "MIT",
+  "private": true,
+  "main": "./src/index.ts"
+}
