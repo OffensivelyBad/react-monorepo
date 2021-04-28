@@ -4,5 +4,8 @@
   "author": "offensivelybad",
   "license": "MIT",
   "private": true,
-  "main": "./src/index.ts"
+  "main": "./src/index.ts",
+  "dependencies": {
+    "zustand": "^3.4.2"
+  }
 }
